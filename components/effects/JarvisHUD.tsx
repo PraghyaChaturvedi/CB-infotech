@@ -322,6 +322,8 @@ export function JarvisHUD() {
         <GridTile x="88%"  y="88%"  delay={2}   />
       </motion.div>
 
+      
+
       {/* ── Full-screen scan sweep ── */}
       <motion.div className="absolute left-0 right-0 pointer-events-none" style={{
         height: 200,
@@ -337,4 +339,4 @@ export function JarvisHUD() {
       }} />
     </div>
   )
-}
+} 
